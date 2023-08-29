@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+:root {
+    --menu-color: #0E7A77;
+    --bg-section-collations-frame: #D9D9D9;
+    --bg-titles-button: #FF1515;
+    --bg-button-hover: #B71010;
+    --color-buttons: #ffffff;
+}
+
+/* mobile menu */
+
+.ss-menu-button {
+    display: none;
+}
+
+/* mobile menu */
+
+/* header menu */
+
+.ss-nav-menu-list-item:first-child {
+    margin-left: 0px;
+}
+
+.ss-nav-menu-list-item-link {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.1;
+    color: var(--menu-color);
+}
+
+.ss-nav-menu-list-item-link {
+    padding: 5px 25px;
+    border-radius: 20px;
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+.ss-nav-menu-list-item-link:hover {
+    background: var(--bg-button-hover);
+    color: var(--color-buttons);
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+.ss-menu-bag-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.ss-mobile-menu-button-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Section new collections */
+
+.ss-section-new-collections-container {
+    width: 684px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ss-section-new-collections-frame {
+    width: 684px;
+    background: var(--bg-section-collations-frame);
+    border-radius: 20px;
+    padding: 45px 265px;
+    padding-top: 60px;
+}
+
+.ss-section-new-collections-frame-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.ss-section-new-collections-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background: var(--bg-titles-button);
+    border-radius: 20px;
+    width: 374px;
+    padding: 58px 142px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--color-buttons);
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+    margin-top: 584px;
+}
+
+.ss-section-new-collections-button:hover {
+    background: var(--bg-button-hover);
+    cursor: pointer;
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+/* Section our products */
+
+.ss-section-our-products-container {
+    width: 1392px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.ss-section-our-products-title {
+    color: var(--bg-titles-button);
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.ss-section-our-products-list {
+    display: flex;
+}
+
+.ss-section-our-products-list-item {
+    width: 448px;
+    margin-left: 24px;
+}
+
+.ss-section-our-products-list-item:first-child {
+    margin-left: 0px;
+}
+
+/* card icons and photos */
+
+.ss-section-our-products-list-item-img {
+    width: 448px;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.ss-section-our-products-list-item-star-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ss-section-our-products-list-item-star-list-item {
+    margin-left: 30px;
+}
+
+.ss-section-our-products-list-item-star-list-item:first-child {
+    margin-left: 0px;
+}
+
+.ss-section-our-products-list-item-star-list-item-icon {
+    width: 60px;
+    height: 60px;
+}
+
+/* card info */
+
+.ss-section-our-products-list-item-prices-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ss-section-our-products-list-item-prices-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.ss-section-our-products-list-item-prices-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.ss-section-our-products-list-item-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.ss-section-our-products-list-item-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.ss-section-our-products-list-item-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background: var(--bg-titles-button);
+    border-radius: 20px;
+    width: 448px;
+    padding: 17px 203px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--color-buttons);
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+.ss-section-our-products-list-item-button:hover {
+    cursor: pointer;
+    background: var(--bg-button-hover);
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+/* Discount */
+
+.ss-section-discount {
+    margin-bottom: 50px;
+}
+
+.ss-section-discount-container {
+    width: 1392px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ss-section-discount-title {
+    color: var(--bg-titles-button);
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+.ss-section-discount-list-item-prices-container {
+    width: 448px;
+    display: block;
+    position: relative;
+}
+
+/* card icons and photos */
+
+.ss-section-discount-list-item-prices-img {
+    display: block;
+    border-radius: 20px;
+}
+
+.ss-section-discount-list-item-prices-discount-container {
+    background: var(--bg-titles-button);
+    padding: 17px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ss-section-discount-list-item-prices-discount-text {
+    color: var(--color-buttons);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.ss-section-discount-list-item-percent-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* card info */
+
+.ss-section-discount-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ss-section-discount-list-item {
+    width: 448px;
+    margin-left: 24px;
+}
+
+.ss-section-discount-list-item:first-child {
+    margin-left: 0px;
+}
+
+.ss-section-discount-list-item-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.ss-section-discount-list-item-star-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ss-section-discount-list-item-star-list-item {
+    margin-left: 30px;
+}
+
+.ss-section-discount-list-item-star-list-item:first-child {
+    margin-left: 0px;
+}
+
+.ss-section-discount-list-item-star-list-item-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.ss-section-discount-list-item-prices-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ss-section-discount-list-item-text-discount-prices {
+    display: flex;
+}
+
+.ss-section-discount-list-item-text-discount-price {
+    margin-right: 13px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.ss-section-discount-list-item-prices-text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.1;
+    text-decoration-line: line-through;
+}
+
+.ss-section-discount-list-item-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.ss-section-discount-list-item-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background: var(--bg-titles-button);
+    border-radius: 20px;
+    width: 448px;
+    padding: 17px 203px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--color-buttons);
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+.ss-section-discount-list-item-button:hover {
+    cursor: pointer;
+    background: var(--bg-button-hover);
+    transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
+}
+
+/* footer */
+
+.ss-footer-container {
+    width: 1392px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+.ss-footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ss-footer-list-item-logo {
+    width: 110px;
+    height: 90px;
+}
+
+.ss-footer-list-item-title {
+    text-align: right;
+    color: var(--bg-titles-button);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 11px;
+}
+
+.ss-footer-list-item-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ss-footer-list-item-list-item {
+    margin-left: 13px;
+}
+
+.ss-footer-list-item-list-item:first-child {
+    margin-left: 0px;
+}
+
+.ss-footer-list-item-list-item-icon {
+    width: 30px;
+    height: 30px;
+}
